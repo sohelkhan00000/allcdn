@@ -1,1 +1,1 @@
-alert("Hello India!");
+const hassu={logger(e){var o=new Date,n=o.getDate()+"/"+(o.getMonth()+1)+"/"+o.getFullYear()+" @ "+o.getHours()+":"+o.getMinutes()+":"+o.getSeconds();console.log(`${e} : on ${n}`)},randomBoolean:()=>Math.random()>=.5,sleep:e=>new Promise((o,n)=>{setTimeout(()=>{o()},e)}),randomNumber:(e,o)=>Math.floor(Math.random()*(o-e+1)+e)};
