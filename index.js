@@ -5,7 +5,7 @@ app.use(express.static(__dirname))
 
 app.get('/', async (req, res) => {
 
-app.use(express.static(__dirname))
+    res.sendFile('index.html')
 });
-app.listen(3000);
+//app.listen(3000);
 module.exports = app
